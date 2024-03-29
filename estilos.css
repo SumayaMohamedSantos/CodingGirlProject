@@ -1,6 +1,6 @@
 body{
    
-   background:rgb(207, 207, 207);
+   background:rgb(255, 255, 255);
 }
 
 div{
@@ -53,8 +53,48 @@ ul{
     background-color: aqua;
 }
 #contaier-products{
-    background-color: brown;
+    border-radius: 10px;
+    padding: 10px;
+    width: 880px;
+    background-color: rgb(253, 251, 251);
     display: grid;
-    gap: 50px 100px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: minmax(100px, auto);
+    gap: 20px;
+    justify-content: center;
     cursor:grab;
+}
+
+.grid-item{
+    border-radius: 7px;
+    background-color: rgba(223, 216, 205, 0.638);
+    display: flex;
+    justify-items: center;
+    padding-right: 115px;
+    box-shadow: 20px;
+}
+
+#container-photos{
+    margin-left: 320px;
+    padding: 10px;
+    width: 898px;
+    
+    
+
+}
+#form-btn{
+    margin-left: 655px;
+    margin-bottom: 35px;
+    background-color: rgb(184, 190, 188);
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+#show-table{
+    margin-left: 655px;
+    margin-bottom: 35px;
+    background-color: rgb(184, 190, 188);
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
 }
