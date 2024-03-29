@@ -1,0 +1,49 @@
+
+body{
+ background-color: aliceblue;
+}
+div{
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.input-form{
+    padding: 4px;
+    margin-top: 8px;
+    margin-left: 3px;
+    border-radius: 3px;
+}
+
+#form-div{
+    margin-top: 100px;
+}
+
+#formulario{
+    padding: 10px;
+   
+    border-radius: 8px;
+   
+}
+
+#fieldset-input{
+    padding: 30px;
+    
+}
+
+#btn-form{
+    margin-top: 25px;
+    border-radius: 3px;
+    padding: 3px;
+    margin-left: 130px;
+}
+
+#link-login{
+    
+    margin-left: 75px;
+    
+}
+
+#link-signup{
+    margin-left: 45px;
+}
