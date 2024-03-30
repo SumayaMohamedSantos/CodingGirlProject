@@ -38,7 +38,7 @@ header a {
 
 .nav-link {
     position: relative;
-    color: rgb(187, 187, 187);
+   
 
 }
 .nav-link::after {
@@ -108,4 +108,35 @@ h1 {
 
 #table-prices {
     margin: 0 auto;
+   
 }
+
+#table-prices {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 55%;
+  }
+  
+  #table-prices td, #table-prices th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #table-prices tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #table-prices tr:hover {background-color: #ddd;}
+  
+  #table-prices th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #8eafbe;
+    color: white;
+  }
+
+  footer {
+    text-align: center;
+    padding: 7px;
+    background-color: rgb(211, 211, 211);
+    color: rgb(41, 38, 38);
+  }
