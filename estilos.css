@@ -136,7 +136,14 @@ h1 {
 
   footer {
     text-align: center;
-    padding: 7px;
+    padding: 2%;
     background-color: rgb(211, 211, 211);
     color: rgb(41, 38, 38);
   }
+  .div-banner{
+    margin:2%
+  }
+   div.div-banner img{
+    border-radius: 2%;
+   }
+ 
